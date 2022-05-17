@@ -7,13 +7,16 @@ a:link { text-decoration: none;
         }
 
   
-.pictureone {
-  width: 50%;
-}
+
 .img {
-  max-width: 100%;
-  max-height: auto;
-  
+  display:flex;
+  align-items: stretch;
+  justify-content: stretch;
+ max-width: 100%;
+ width: 50%;
+
+
+
   }
 
   h1 {font-size: 24px;
@@ -26,8 +29,10 @@ a:link { text-decoration: none;
 
   h3 {
     font-weight: 100;
+    font-size: 18px;
     padding: 0px;
-  margin: 0px;}
+  margin: 0px;
+  color: #e5e7eb;}
 
   .quote { font-size: 36px;
       font-style: italic;
@@ -70,9 +75,21 @@ font-weight: 700;
   background-color: #1f2937;
   color: white; }
 
-.container2 {
+
+.container {
+  display: flex;
+  flex-direction: column;
   width: 50%;
-  height: 75%;
+  height: 50%;
+  padding-right: 40px;
+}
+
+.container2 {
+  display:flex;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 50%;
+
 
 }
  
@@ -82,22 +99,11 @@ font-weight: 700;
   margin-bottom: 60px;
   margin-right: 200px;
   margin-left: 200px;
-  
+  justify-content:space-between;
   
 
 }
 
-
-
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  height:75%;
-  padding-right: 40px;
- 
-
-}
 
 
 body {
@@ -129,9 +135,7 @@ a {
   background-color: #E5E7EB;
 }
 
-.finalsection {
-  background-color: white;
-}
+
 footer {
   display: flex;
   justify-content: center;
@@ -159,12 +163,13 @@ footer {
 
 button {background-color: #3882f6;
     color: white;
-    padding: 8px 22px;
+    padding: 8px 30px;
     margin: 0px;
     margin-top: 10px;
     border: 0px;
     display: flex;
     align-self: flex-start;
+    font-size: 15px;
     font-weight: 600;
     border-radius: 10px;
 
@@ -175,3 +180,36 @@ button {background-color: #3882f6;
 width: 175px;
 height: 175px;
 max-width: 100%;}
+
+
+.finalsection {
+  background-color: white;
+  margin: 100px 200px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 150px;
+  border-radius: 8px;
+  color: white;
+}
+
+.action { 
+font-size: 24px;
+font-weight: 800;
+padding: 0px;
+margin: 0px;
+}
+
+.buttontwo {
+  border: white;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.subtext {
+  margin: 0px;
+}
+
+.lol {background-color: white;}
